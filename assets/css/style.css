@@ -152,6 +152,9 @@ section {
 .trainers {
     text-align: center;
 }
+.reach {
+    text-align: center;
+}
 .trainer img {
     float: left;
     width: 35%;
