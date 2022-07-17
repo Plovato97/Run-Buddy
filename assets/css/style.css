@@ -58,9 +58,18 @@ footer a {
 section {
     padding: 60px;
 }
+.hero-cta h2 {
+    color: #fce138;
+}
+
+.build {
+    color: white;
+    position: absolute;
+
+}
 /* Hero style start */
 .hero {
-    background-image: url(./image/hero-bg.jpg);
+    background-image: url(./image/flipped-hero-image.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -77,6 +86,7 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+
 }
 .hero-form p {
     margin: 5px 0 15px 0;
