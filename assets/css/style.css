@@ -40,7 +40,7 @@ header nav ul li {
     display: inline;
 }
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -68,13 +68,14 @@ section {
     padding: 60px;
 }
 
+
 .hero-cta {
     width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .hero-cta h2 {
     color: #fce138;
@@ -95,6 +96,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 /* Hero Style end */
 /* Hero form style */
@@ -182,7 +184,7 @@ section {
     justify-content: space-between;
 }
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     border-color: #39a6b2;
@@ -292,4 +294,29 @@ section {
 }
 .flex-row {
     display: flex;
+}
+
+
+@media screen and (max-width: 980px) {
+    a {
+        color: aquamarine;
+        
+    }
+    h1 {
+        font-size: 200px;
+    }
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS ADN SMALLER */
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
 }
